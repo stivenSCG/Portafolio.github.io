@@ -198,6 +198,9 @@ form input{
     border-radius: 5px;
     border-width: 0;
 }
+form h3{
+    font-size: 20px;
+}
 
 @media screen and (max-width: 480px){
     .contenedor-h{
@@ -211,6 +214,11 @@ form input{
     .footer{
         display: grid;
         justify-content: center;
+        align-content: space-between;
+        height: 500px;
+    }
+    .contenedor-redes h3{
+        text-align: start;
     }
     .menu{
         padding: 20px;

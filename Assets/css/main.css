@@ -47,6 +47,12 @@ table {
 html {
     scroll-behavior: smooth;
 }
+.title{
+    font-family: 'Poppins', sans-serif;
+}
+.text{
+    font-family: 'Montserrat', sans-serif;
+}
 .menu {
     display: flex;
     justify-content: space-between;
@@ -196,12 +202,15 @@ form input{
 @media screen and (max-width: 480px){
     .contenedor-h{
         display: grid;
+        padding: 10%;
     }
     .contenedor-a{
         display: grid;
+        padding: 10%;
     }
     .footer{
         display: grid;
+        justify-content: center;
     }
     .menu{
         padding: 20px;

@@ -88,12 +88,16 @@ nav ul li a:hover {
     height: 649px;
     padding: 0 15%;
 }
+.descripcion-h{
+    width: 60%;
+}
 .descripcion-h h3 {
-    width: 97px;
+    width: 100%;
     padding: 5px;
     color: white;
     background-color: rgb(192, 166, 49);
     border-radius: 5px;
+    font-size: 30px;
 }
 .descripcion-h button {
     background-color: rgb(238, 235, 235);
@@ -132,6 +136,7 @@ nav ul li a:hover {
     background-color: rgb(205, 253, 237);
     border-radius: 30px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    width: 400px;
 }
 .descripcion-a h3{
     text-align: center;
@@ -178,10 +183,11 @@ nav ul li a:hover {
 }
 .contenedor-contactos h3 {
     font-size: 20px;
+    text-align: center;
 }
 .contenedor-redes h3 {
       font-size: 20px;
-    text-align: end;
+    text-align: center;
 }
 .b-form{
     background-color: rgb(238, 235, 235);
@@ -200,16 +206,30 @@ form input{
 }
 form h3{
     font-size: 20px;
+    text-align: center;
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 770px){
     .contenedor-h{
         display: grid;
         padding: 10%;
+        width: auto;
+        height: auto;
+    }
+    .descripcion-h{
+        width: auto;
+    }
+    .img-h{
+        margin: auto;
+        padding-top: 50px;
     }
     .contenedor-a{
         display: grid;
         padding: 10%;
+        justify-content: center;
+    }
+    .descripcion-a{
+        width: auto;
     }
     .footer{
         display: grid;
